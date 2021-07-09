@@ -1,3 +1,6 @@
-const livros = require('./database')
+const livros = require('./database');
+const readline = require('readline-sync');
 
-console.log(livros)
+
+//get input
+const entrada = readline.question('Deseja buscar umm livro?S/N')
